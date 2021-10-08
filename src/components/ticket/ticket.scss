@@ -1,0 +1,25 @@
+.cu-item{
+    height: 240rpx;
+    margin-top:10rpx;
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+.cu-avatar.llg{
+    width: 200rpx;
+height: 200rpx;
+font-size: 2em;
+
+}
+.cu-item .content{
+    position: absolute;
+    left: 246rpx;
+    right: 0px;
+    width: auto;
+    line-height: 1.2em;
+}
+.cu-item .botom-action{
+    position: absolute;
+    bottom: 0rpx;
+    right: 0rpx;
+}

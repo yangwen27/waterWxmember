@@ -1,0 +1,171 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "member",
+  "description": "订水小程序",
+  "appid": "wx5e936d795924a838",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "enhance": false,
+    "postcss": false,
+    "preloadBackgroundData": false,
+    "minified": false,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": [
+        {
+          "id": 0,
+          "name": "登录",
+          "pathName": "pages/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "租约管理",
+          "pathName": "pages/rent/list",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "报表",
+          "pathName": "pages/reports/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "添加地址",
+          "pathName": "pages/address/add",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/address/index",
+          "pathName": "pages/address/index",
+          "query": "from=/pages/index/index",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "选购商品",
+          "pathName": "pages/product/index",
+          "query": "from=/pages/index/index",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "水票",
+          "pathName": "pages/ticket/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的水票",
+          "pathName": "pages/ticket/myticket",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的订单",
+          "pathName": "pages/order/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "订单详情",
+          "pathName": "pages/order/info",
+          "query": "id=15",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的",
+          "pathName": "pages/member/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "賬戶設置",
+          "pathName": "pages/member/setting",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "登录",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 13,
+          "name": "押金支付",
+          "pathName": "pages/deposit/pay",
+          "query": "q=https%3a%2f%2ffljc.zl771.cn%2fdeposit%3fid%3d1",
+          "scene": 1008
+        },
+        {
+          "id": -1,
+          "name": "桶押金",
+          "pathName": "pages/deposit/index",
+          "query": "q=https%3a%2f%2ffljc.zl771.cn%2fdeposit%3fid%3d3",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

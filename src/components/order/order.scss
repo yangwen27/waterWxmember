@@ -1,0 +1,19 @@
+.order-item{
+    position: relative;
+    min-height: 240rpx;
+    // max-height: 360rpx;
+    overflow: hidden;
+}
+.order-item >.superscript{
+    color: #fff;
+        width: 160px;
+        position: absolute;
+        right: -40rpx;
+        top:25rpx;
+        text-align: center;
+        -moz-transform:rotate(45deg);
+        -webkit-transform:rotate(45deg);
+        -o-transform:rotate(45deg);
+        -ms-transform:rotate(45deg);
+        transform:rotate(45deg);
+}
