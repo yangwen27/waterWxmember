@@ -1,5 +1,7 @@
 # waterWxmember
-惠民订水小程序 会员端
+# 惠民订水小程序 会员端
++ 扫码体验
+![小程序]
 ![系统导图](https://www.zl771.cn/wp-content/uploads/2020/12/%E5%B0%8F%E5%BE%AE%E8%AE%A2%E6%B0%B4-1024x785.png)
 ## 分销功能
 + 增加商品明细页面，会员可以转发分享
