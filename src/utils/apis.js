@@ -6,7 +6,7 @@ const baseUrl=getBaseUrl()
 function getBaseUrl(){
     const info=Taro.getAccountInfoSync()
     if(info.miniProgram.envVersion=='develop'){
-        return  'http://192.168.2.101:52836/'//'http://192.168.2.101:52836'//'https://mjsc.2009xc.com'//'https://mjsctest.nnch.net'//
+        return  'http://192.168.2.101:52836/'
     }else if (info.miniProgram.envVersion=='trial'){
         return 'http://192.168.2.101:52836/'
     }else{
