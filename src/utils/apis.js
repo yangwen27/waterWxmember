@@ -6,11 +6,11 @@ const baseUrl=getBaseUrl()
 function getBaseUrl(){
     const info=Taro.getAccountInfoSync()
     if(info.miniProgram.envVersion=='develop'){
-        return  'https://water.zl771.cn'//'http://192.168.2.101:52836'//'https://mjsc.2009xc.com'//'https://mjsctest.nnch.net'//
+        return  'http://192.168.2.101:52836/'//'http://192.168.2.101:52836'//'https://mjsc.2009xc.com'//'https://mjsctest.nnch.net'//
     }else if (info.miniProgram.envVersion=='trial'){
-        return 'https://water.zl771.cn'
+        return 'http://192.168.2.101:52836/'
     }else{
-        return 'https://water.zl771.cn'
+        return 'http://192.168.2.101:52836/'
     }
 }
 export const uploadUrl=baseUrl+'/api/common/Upload'
